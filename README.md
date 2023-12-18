@@ -9,11 +9,11 @@
 ### Data Preprocessing
 
 * What variable(s) are the target(s) for your model?
-    The target data is the IS_SUCCESSFUL column.
+      The target data is the IS_SUCCESSFUL column.
 * What variable(s) are the features for your model?
-    The following are the feature data for my model, APPLICATION_TYPE, AFFILIATION CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS and ASK_AMT.
+      The following are the feature data for my model, APPLICATION_TYPE, AFFILIATION CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS and ASK_AMT.
 * What variable(s) should be removed from the input data because they are neither targets nor features?
-    The variables 'EIN' and 'NAME' were removed and not used as inpute data as they contribute nothing to the logic of the model being created.
+      The variables 'EIN' and 'NAME' were removed and not used as inpute data as they contribute nothing to the logic of the model being created.
 
 ### Compiling, Training, and Evaluating the Model
 
@@ -39,3 +39,13 @@
     In general, my model was not successful in acieving the 75% accuracy.
     Looking at the results, it looks like the most effective optimization was adding more neurons. In this exercise, I wanted to try changing different variables like bucketing/binning, number of neurons and number of layers. Based on those options I tried, it looks like increasing the number of neurons made the most difference. I would recommend increasing the neurons more, and with the additional layer, I would think that the accuracy will improve.
 
+
+## Submitted Files
+* AlphabetSoupCharity.ipynb - main file containing initial model
+* AlphabetSoupCharity.h5 - initial exported model
+* AlphabetSoupCharity_Optimisation.ipynb - contains first try at optimizing model
+* AlphabetSoupCharity_Optimisation.h5 - first try at optimizing model, exported model
+* AlphabetSoupCharity_Optimisation2.ipynb - contains second try at optimizing model
+* AlphabetSoupCharity_Optimisation2.h5 - second try at optimizing model, exported model
+* AlphabetSoupCharity_Optimisation3.ipynb - contains third try at optimizing model
+* AlphabetSoupCharity_Optimisation3.h5 - third try at optimizing model, exported model
